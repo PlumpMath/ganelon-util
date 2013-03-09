@@ -7,11 +7,9 @@
 ;; remove this notice, or any other, from this software.
 
 (defproject ganelon-util "0.8-SNAPSHOT"
-  :description "Utility functions used by Ganelon - but independent from compojure/noir"
+  :description "Utility functions used by Ganelon - but independent from compojure/noir/ring"
   :url "http://ganelon.tomeklipski.com/util-doc/index.html"
-  :dependencies [[org.clojure/clojure "1.4.0" ]
-                 [org.clojure/core.memoize "0.5.2" :exclusions [org.clojure/clojure]]
-                 [org.clojure/tools.logging "0.2.3" :exclusions [org.clojure/clojure]]]
+  :dependencies [[org.clojure/core.memoize "0.5.2"]]
   :plugins [[codox "0.6.4"]]
   :codox {:src-dir-uri "http://github.com/tlipski/ganelon-util/blob/master"
           :output-dir "doc"
