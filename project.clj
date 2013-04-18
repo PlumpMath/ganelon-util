@@ -6,7 +6,7 @@
 ;; agreeing to be bound by the terms of this license.  You must not
 ;; remove this notice, or any other, from this software.
 
-(defproject ganelon-util "0.8-SNAPSHOT"
+(defproject ganelon-util "0.8.0"
   :description "Utility functions used by Ganelon - but independent from compojure/noir/ring"
   :url "http://ganelon.tomeklipski.com/util-doc/index.html"
   :dependencies [[org.clojure/core.memoize "0.5.2"]]
